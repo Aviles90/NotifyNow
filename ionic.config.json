@@ -1,0 +1,7 @@
+{
+  "name": "notifyNow",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
