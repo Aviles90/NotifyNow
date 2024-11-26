@@ -1,19 +1,12 @@
-<mat-toolbar color="primary">
-  <span>My Angular Material App</span>
-</mat-toolbar>
-
-<div style="padding: 16px;">
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>Welcome to Material</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <p>This is a card with Angular Material styles.</p>
-      <mat-form-field appearance="fill">
-        <mat-label>Enter your name</mat-label>
-        <input matInput placeholder="Ex. John Doe">
-      </mat-form-field>
-      <button mat-raised-button color="primary">Submit</button>
-    </mat-card-content>
-  </mat-card>
-</div>
+<ion-tabs mode="md">
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="inicio">
+      <mat-icon>home</mat-icon>
+      Inicio
+    </ion-tab-button>
+    <ion-tab-button tab="cuenta">
+      <mat-icon>person</mat-icon>
+      Cuenta
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

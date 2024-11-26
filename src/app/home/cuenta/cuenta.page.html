@@ -1,0 +1,47 @@
+<ion-header  mode="md">
+  <ion-toolbar color="primary">
+    <ion-title>Cuenta</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-grid fixed style="background-color: #2196F3;">
+      <ion-row>
+        <ion-col offset="4" size="4">
+          <ion-img src="../../../assets/notifyNow.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <ion-list lines="none" mode="md">
+    <ion-item>
+      <ion-icon aria-hidden="true" name="person-sharp" slot="start"></ion-icon>
+      <ion-label>
+        <strong>Rick Astley</strong>
+        <!-- <ion-text>Never Gonna Give You Up</ion-text> -->
+        <!-- <br /> -->
+        <ion-note color="medium" class="ion-text-wrap">
+          uncorreomas.com
+        </ion-note>
+      </ion-label>
+    </ion-item>
+    <ion-item [button]="true" detail="true">
+      <ion-icon aria-hidden="true" name="trending-up-sharp" slot="start"></ion-icon>
+      <ion-label>Plan free</ion-label>
+    </ion-item>
+    <ion-item [button]="true" detail="true">
+      <ion-icon aria-hidden="true" name="log-out-sharp" slot="start"></ion-icon>
+      <ion-label>Cerrar sesión</ion-label>
+    </ion-item>
+    <mat-divider></mat-divider>
+    <ion-item>
+      <ion-label>
+        <ion-note>Version 0.0.1</ion-note>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

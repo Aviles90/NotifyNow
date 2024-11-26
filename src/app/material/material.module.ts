@@ -11,6 +11,7 @@ import { ObserversModule } from '@angular/cdk/observers';
 import { PlatformModule } from '@angular/cdk/platform';
 import { MatPseudoCheckboxModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   exports: [
@@ -43,7 +44,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     //  MatExpansionModule,
     //  MatFormFieldModule,
     //  MatGridListModule,
-    //  MatListModule,
+     MatListModule,
     //  MatMenuModule,
     //  MatNativeDateModule,
     //  MatPaginatorModule,

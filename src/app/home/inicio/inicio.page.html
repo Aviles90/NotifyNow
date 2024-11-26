@@ -1,0 +1,24 @@
+<app-toolbar titulo="NotifyNow"></app-toolbar>
+
+<ion-content>
+  <ion-list lines="none" mode="md">
+    <ion-item *ngFor="let item of folders" [button]="true">
+      <ion-icon aria-hidden="true" name="person-sharp" slot="start"></ion-icon>
+      <ion-label>
+        <strong>Rick Astley</strong>
+        <!-- <ion-text>Never Gonna Give You Up</ion-text> -->
+        <br />
+        <ion-note color="medium" class="ion-text-wrap">
+          01/01/2025 <br/> 12:00pm
+        </ion-note>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end" mode="md">
+    <ion-fab-button routerLink="new-notificacion">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
